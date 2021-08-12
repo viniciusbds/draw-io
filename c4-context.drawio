@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-12T14:35:38.085Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4592.0 Safari/537.36 Edg/94.0.975.1" etag="amKkwsIe6ayy3hNhcsJJ" version="14.9.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-08-12T14:47:05.750Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4592.0 Safari/537.36 Edg/94.0.975.1" etag="IliIP9KtKkrXKgmMweX4" version="14.9.6" type="github" pages="3">
   <diagram id="USoWGheu4pevt5vaRW3p" name="context diagram">
     <mxGraphModel dx="1422" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="583" math="0" shadow="0">
       <root>
@@ -79,18 +79,13 @@
     </mxGraphModel>
   </diagram>
   <diagram name="container diagram" id="iNVK_-72tPnxy61hjPjv">
-    <mxGraphModel dx="1422" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="583" math="0" shadow="0">
+    <mxGraphModel dx="1185" dy="638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="583" math="0" shadow="0">
       <root>
         <mxCell id="kcNrDKVuIw6WG_678KC--0" />
         <mxCell id="kcNrDKVuIw6WG_678KC--1" parent="kcNrDKVuIw6WG_678KC--0" />
         <object placeholders="1" c4Name="Docker System" c4Type="ExecutionEnvironment" c4Application="Software System" label="&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="OO-NOTkTCamF0T1hizEh-0">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#ffffff;fontColor=#000000;align=left;arcSize=5;strokeColor=#000000;verticalAlign=bottom;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shadow=0;glass=0;dashed=1;sketch=0;fontSize=11;fontStyle=0" vertex="1" parent="kcNrDKVuIw6WG_678KC--1">
             <mxGeometry x="190" y="210" width="400" height="360" as="geometry" />
-          </mxCell>
-        </object>
-        <object placeholders="1" c4Name="Cliente Docker" c4Type="Person" c4Description="Cliente que precisa &#xa;criar, usar ou manipular &#xa;containers via CLI" label="&lt;b&gt;%c4Name%&lt;/b&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;%c4Description%&lt;/div&gt;" id="kcNrDKVuIw6WG_678KC--3">
-          <mxCell style="html=1;dashed=0;whitespace=wrap;fillColor=#08427b;strokeColor=none;fontColor=#ffffff;shape=mxgraph.c4.person;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};" vertex="1" parent="kcNrDKVuIw6WG_678KC--1">
-            <mxGeometry x="228" width="140" height="140" as="geometry" />
           </mxCell>
         </object>
         <object placeholders="1" c4Name="Registry" c4Type="Software System" c4Description="Armazena remotamente um conjunto de imagens, que podem ser privadas ou públicas" label="&lt;b&gt;%c4Name%&lt;/b&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;%c4Description%&lt;/div&gt;" id="kcNrDKVuIw6WG_678KC--4">
@@ -114,9 +109,9 @@
             <mxPoint x="66" y="8" as="offset" />
           </mxGeometry>
         </mxCell>
-        <object placeholders="1" c4Name="API Docker" c4Type="Person" c4Description="Cliente que precisa &#xa;criar, usar ou manipular &#xa;containers via API" label="&lt;b&gt;%c4Name%&lt;/b&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;%c4Description%&lt;/div&gt;" id="kcNrDKVuIw6WG_678KC--11">
+        <object placeholders="1" c4Name="Client API Docker" c4Type="Person" c4Description="Cliente que precisa &#xa;criar, usar ou manipular &#xa;containers via API" label="&lt;b&gt;%c4Name%&lt;/b&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;%c4Description%&lt;/div&gt;" id="kcNrDKVuIw6WG_678KC--11">
           <mxCell style="html=1;dashed=0;whitespace=wrap;fillColor=#08427b;strokeColor=none;fontColor=#ffffff;shape=mxgraph.c4.person;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};" vertex="1" parent="kcNrDKVuIw6WG_678KC--1">
-            <mxGeometry x="414" width="140" height="140" as="geometry" />
+            <mxGeometry x="228" width="140" height="140" as="geometry" />
           </mxCell>
         </object>
         <object placeholders="1" c4Name="API endpoint" c4Type="Container" c4Technology="REST API Golang " c4Description="Permite que os clientes acessem o sistema docker através de uma API" label="&lt;b&gt;%c4Name%&lt;/b&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;%c4Description%&lt;/div&gt;" id="aMOdHgm2t-skBHyzk6el-15">
@@ -169,15 +164,15 @@
           </mxCell>
         </object>
         <object placeholders="1" c4Type="Relationship" c4Technology="REST" c4Description="Cria/inicializa/remove&#xa;containers e imagens" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="aMOdHgm2t-skBHyzk6el-30">
-          <mxCell style="edgeStyle=none;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;strokeColor=#707070;strokeWidth=2;fontColor=#707070;jumpStyle=none;dashed=1;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};fontSize=11;endArrow=classic;endFill=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="kcNrDKVuIw6WG_678KC--1" source="kcNrDKVuIw6WG_678KC--3" target="aMOdHgm2t-skBHyzk6el-15">
+          <mxCell style="edgeStyle=none;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;strokeColor=#707070;strokeWidth=2;fontColor=#707070;jumpStyle=none;dashed=1;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};fontSize=11;endArrow=classic;endFill=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="kcNrDKVuIw6WG_678KC--1" target="aMOdHgm2t-skBHyzk6el-15">
             <mxGeometry x="-0.1398" width="160" relative="1" as="geometry">
-              <mxPoint x="40" y="350" as="sourcePoint" />
+              <mxPoint x="298" y="140" as="sourcePoint" />
               <mxPoint x="228.81452944413877" y="243" as="targetPoint" />
               <mxPoint as="offset" />
             </mxGeometry>
           </mxCell>
         </object>
-        <object placeholders="1" c4Type="Relationship" c4Technology="REST" c4Description="Cria/inicializa/remove&#xa;containers e imagens" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="aMOdHgm2t-skBHyzk6el-31">
+        <object placeholders="1" c4Type="Relationship" c4Technology="Cobra CLI golang framework" c4Description="Cria/inicializa/remove&#xa;containers e imagens" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="aMOdHgm2t-skBHyzk6el-31">
           <mxCell style="edgeStyle=none;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;strokeColor=#707070;strokeWidth=2;fontColor=#707070;jumpStyle=none;dashed=1;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};fontSize=11;endArrow=classic;endFill=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="kcNrDKVuIw6WG_678KC--1">
             <mxGeometry x="-0.1398" width="160" relative="1" as="geometry">
               <mxPoint x="483.65999999999997" y="140" as="sourcePoint" />
@@ -195,6 +190,11 @@
         <mxCell id="iuL8P2JpgaqrbCDm02UV-3" value="&lt;b&gt;Database&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;sketch=0;fontSize=11;fontColor=#FFFFFF;" vertex="1" parent="iuL8P2JpgaqrbCDm02UV-4">
           <mxGeometry x="20" y="30" width="40" height="20" as="geometry" />
         </mxCell>
+        <object placeholders="1" c4Name="Cliente Docker" c4Type="Person" c4Description="Cliente que precisa &#xa;criar, usar ou manipular &#xa;containers via CLI" label="&lt;b&gt;%c4Name%&lt;/b&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;%c4Description%&lt;/div&gt;" id="ojk7neEFpWCGZjmkKiUd-0">
+          <mxCell style="html=1;dashed=0;whitespace=wrap;fillColor=#08427b;strokeColor=none;fontColor=#ffffff;shape=mxgraph.c4.person;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};" vertex="1" parent="kcNrDKVuIw6WG_678KC--1">
+            <mxGeometry x="414" width="140" height="140" as="geometry" />
+          </mxCell>
+        </object>
       </root>
     </mxGraphModel>
   </diagram>
