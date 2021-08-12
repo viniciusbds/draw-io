@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-08-12T12:58:08.293Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4592.0 Safari/537.36 Edg/94.0.975.1" etag="nZ1UW0WEmxczYGzuz2mw" version="14.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-12T13:00:48.649Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4592.0 Safari/537.36 Edg/94.0.975.1" etag="wSjP1-FYVqVZAU1-NvNg" version="14.9.6" type="github">
   <diagram id="USoWGheu4pevt5vaRW3p" name="context diagram">
-    <mxGraphModel dx="1422" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1185" dy="638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -92,6 +92,9 @@
           <mxGeometry x="-0.1286" y="-1" relative="1" as="geometry">
             <mxPoint x="1" y="-44" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="O3t1NYWPz0p32roDbrL6-7" value="&lt;b&gt;Observação: o termo container nesse diagrama se refere a tecnologia docker, não ao diagrama de container c4&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="790" width="370" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
