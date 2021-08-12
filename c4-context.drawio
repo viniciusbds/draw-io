@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-08-12T13:19:41.468Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4592.0 Safari/537.36 Edg/94.0.975.1" etag="eEDWlZkxFr_It_rrcHok" version="14.9.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-08-12T13:27:08.063Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4592.0 Safari/537.36 Edg/94.0.975.1" etag="BVhJyvgdBtsq7eAgTViT" version="14.9.6" type="github" pages="3">
   <diagram id="USoWGheu4pevt5vaRW3p" name="context diagram">
-    <mxGraphModel dx="1185" dy="638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="583" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="583" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,11 +10,6 @@
             <mxPoint x="414" y="200" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <object placeholders="1" c4Name="Cliente Docker" c4Type="Person" c4Description="Cliente que precisa &#xa;criar, usar ou manipular &#xa;containers via CLI" label="&lt;b&gt;%c4Name%&lt;/b&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;%c4Description%&lt;/div&gt;" id="SmEOS3_obx7CU0TLqExd-1">
-          <mxCell style="html=1;dashed=0;whitespace=wrap;fillColor=#08427b;strokeColor=none;fontColor=#ffffff;shape=mxgraph.c4.person;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};" parent="1" vertex="1">
-            <mxGeometry x="205" y="30" width="140" height="140" as="geometry" />
-          </mxCell>
-        </object>
         <object placeholders="1" c4Name="Registry" c4Type="Software System" c4Description="Armazena remotamente um conjunto de imagens, que podem ser privadas ou públicas" label="&lt;b&gt;%c4Name%&lt;/b&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;%c4Description%&lt;/div&gt;" id="SmEOS3_obx7CU0TLqExd-3">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#999999;fontColor=#ffffff;align=center;arcSize=10;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];strokeColor=none;" parent="1" vertex="1">
             <mxGeometry x="659" y="380" width="160" height="110.00000000000001" as="geometry" />
@@ -52,18 +47,13 @@
             <mxPoint x="9" y="-23" as="offset" />
           </mxGeometry>
         </mxCell>
-        <object placeholders="1" c4Name="API Docker" c4Type="Person" c4Description="Cliente que precisa &#xa;criar, usar ou manipular &#xa;containers via API" label="&lt;b&gt;%c4Name%&lt;/b&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;%c4Description%&lt;/div&gt;" id="O3t1NYWPz0p32roDbrL6-3">
-          <mxCell style="html=1;dashed=0;whitespace=wrap;fillColor=#08427b;strokeColor=none;fontColor=#ffffff;shape=mxgraph.c4.person;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};" vertex="1" parent="1">
-            <mxGeometry x="481" y="30" width="140" height="140" as="geometry" />
-          </mxCell>
-        </object>
-        <mxCell id="O3t1NYWPz0p32roDbrL6-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeWidth=2;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="O3t1NYWPz0p32roDbrL6-3" target="SmEOS3_obx7CU0TLqExd-1">
+        <mxCell id="O3t1NYWPz0p32roDbrL6-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeWidth=2;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;exitX=0.519;exitY=0.993;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="7Lbgfwj7MOso4MG-8HwS-1" target="7Lbgfwj7MOso4MG-8HwS-2">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="515" y="180" as="sourcePoint" />
-            <mxPoint x="424" y="470" as="targetPoint" />
+            <mxPoint x="551" y="170" as="sourcePoint" />
+            <mxPoint x="275" y="170" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="551" y="200" />
-              <mxPoint x="275" y="200" />
+              <mxPoint x="553" y="200" />
+              <mxPoint x="270" y="200" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -75,10 +65,96 @@
         <mxCell id="O3t1NYWPz0p32roDbrL6-7" value="&lt;b style=&quot;font-size: 11px;&quot;&gt;Observação: o termo container nesse diagrama se refere a tecnologia docker, não ao diagrama de container c4&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=bottom;whiteSpace=wrap;rounded=0;fontSize=11;horizontal=1;" vertex="1" parent="1">
           <mxGeometry y="540" width="651" height="30" as="geometry" />
         </mxCell>
+        <object placeholders="1" c4Name="Cliente Docker" c4Type="Person" c4Description="Cliente que precisa &#xa;criar, usar ou manipular &#xa;containers via CLI" label="&lt;b&gt;%c4Name%&lt;/b&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;%c4Description%&lt;/div&gt;" id="7Lbgfwj7MOso4MG-8HwS-1">
+          <mxCell style="html=1;dashed=0;whitespace=wrap;fillColor=#08427b;strokeColor=none;fontColor=#ffffff;shape=mxgraph.c4.person;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};" vertex="1" parent="1">
+            <mxGeometry x="480" y="30" width="140" height="140" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="API Docker" c4Type="Person" c4Description="Cliente que precisa &#xa;criar, usar ou manipular &#xa;containers via API" label="&lt;b&gt;%c4Name%&lt;/b&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;%c4Description%&lt;/div&gt;" id="7Lbgfwj7MOso4MG-8HwS-2">
+          <mxCell style="html=1;dashed=0;whitespace=wrap;fillColor=#08427b;strokeColor=none;fontColor=#ffffff;shape=mxgraph.c4.person;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};" vertex="1" parent="1">
+            <mxGeometry x="200" y="30" width="140" height="140" as="geometry" />
+          </mxCell>
+        </object>
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram name="container diagram" id="ByXM8ozVginANf3rxz_h">
+  <diagram name="container diagram" id="iNVK_-72tPnxy61hjPjv">
+    <mxGraphModel dx="1422" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="583" math="0" shadow="0">
+      <root>
+        <mxCell id="kcNrDKVuIw6WG_678KC--0" />
+        <mxCell id="kcNrDKVuIw6WG_678KC--1" parent="kcNrDKVuIw6WG_678KC--0" />
+        <mxCell id="kcNrDKVuIw6WG_678KC--2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeWidth=2;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="kcNrDKVuIw6WG_678KC--1" source="kcNrDKVuIw6WG_678KC--11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="380" as="targetPoint" />
+            <mxPoint x="414" y="200" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <object placeholders="1" c4Name="Cliente Docker" c4Type="Person" c4Description="Cliente que precisa &#xa;criar, usar ou manipular &#xa;containers via CLI" label="&lt;b&gt;%c4Name%&lt;/b&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;%c4Description%&lt;/div&gt;" id="kcNrDKVuIw6WG_678KC--3">
+          <mxCell style="html=1;dashed=0;whitespace=wrap;fillColor=#08427b;strokeColor=none;fontColor=#ffffff;shape=mxgraph.c4.person;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};" vertex="1" parent="kcNrDKVuIw6WG_678KC--1">
+            <mxGeometry x="205" y="30" width="140" height="140" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Registry" c4Type="Software System" c4Description="Armazena remotamente um conjunto de imagens, que podem ser privadas ou públicas" label="&lt;b&gt;%c4Name%&lt;/b&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;%c4Description%&lt;/div&gt;" id="kcNrDKVuIw6WG_678KC--4">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#999999;fontColor=#ffffff;align=center;arcSize=10;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];strokeColor=none;" vertex="1" parent="kcNrDKVuIw6WG_678KC--1">
+            <mxGeometry x="650" y="230" width="160" height="110.00000000000001" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Kubernetes" c4Type="Software System" c4Description="Orquestrador de containers que monitora o ciclo de vida dos containers de uma aplicação " label="&lt;b&gt;%c4Name%&lt;/b&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;%c4Description%&lt;/div&gt;" id="kcNrDKVuIw6WG_678KC--5">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#999999;fontColor=#ffffff;align=center;arcSize=10;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];strokeColor=none;" vertex="1" parent="kcNrDKVuIw6WG_678KC--1">
+            <mxGeometry x="9" y="250" width="160" height="110.00000000000001" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="kcNrDKVuIw6WG_678KC--7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeWidth=2;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="kcNrDKVuIw6WG_678KC--1" target="kcNrDKVuIw6WG_678KC--4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="494" y="435" as="sourcePoint" />
+            <mxPoint x="589" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kcNrDKVuIw6WG_678KC--8" value="baixa, cria e atualiza &lt;br&gt;imagens do registro" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#666666;fontStyle=1" vertex="1" connectable="0" parent="kcNrDKVuIw6WG_678KC--7">
+          <mxGeometry x="-0.1286" y="-1" relative="1" as="geometry">
+            <mxPoint x="10" y="-16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kcNrDKVuIw6WG_678KC--9" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeWidth=2;fillColor=#f5f5f5;gradientColor=#b3b3b3;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#666666;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="kcNrDKVuIw6WG_678KC--1" source="kcNrDKVuIw6WG_678KC--5" target="f9u2d2Vjdnd8VSLoP7Rx-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="99" y="210" as="sourcePoint" />
+            <mxPoint x="332" y="435" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kcNrDKVuIw6WG_678KC--10" value="Usa o Docker por baixo&lt;br&gt;dos panos para criar &lt;br&gt;seus containers via API" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#666666;fontStyle=1" vertex="1" connectable="0" parent="kcNrDKVuIw6WG_678KC--9">
+          <mxGeometry x="-0.1268" y="2" relative="1" as="geometry">
+            <mxPoint x="-14" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <object placeholders="1" c4Name="API Docker" c4Type="Person" c4Description="Cliente que precisa &#xa;criar, usar ou manipular &#xa;containers via API" label="&lt;b&gt;%c4Name%&lt;/b&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;%c4Description%&lt;/div&gt;" id="kcNrDKVuIw6WG_678KC--11">
+          <mxCell style="html=1;dashed=0;whitespace=wrap;fillColor=#08427b;strokeColor=none;fontColor=#ffffff;shape=mxgraph.c4.person;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};" vertex="1" parent="kcNrDKVuIw6WG_678KC--1">
+            <mxGeometry x="481" y="30" width="140" height="140" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="name" c4Type="ExecutionEnvironment" c4Application="applicationAndVersion" label="&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="f9u2d2Vjdnd8VSLoP7Rx-1">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;align=left;arcSize=5;strokeColor=#000000;verticalAlign=bottom;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];fontSize=11;dashed=1;fillColor=none;" vertex="1" parent="kcNrDKVuIw6WG_678KC--1">
+            <mxGeometry x="90" y="460" width="560" height="270" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="CLI" c4Type="Software System" c4Description="Permite que os clientes acessem o sistema docker através da linha de comando" label="&lt;b&gt;%c4Name%&lt;/b&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;%c4Description%&lt;/div&gt;" id="f9u2d2Vjdnd8VSLoP7Rx-0">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;align=center;arcSize=10;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];fontColor=#FFFFFF;labelBorderColor=none;strokeColor=none;fillColor=#1168BD;" vertex="1" parent="kcNrDKVuIw6WG_678KC--1">
+            <mxGeometry x="600" y="473" width="160" height="110.00000000000001" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Docker" c4Type="Software System" c4Description="Gerencia contêineres Linux e consulta o registro para criar ou baixar imagens" label="&lt;b&gt;%c4Name%&lt;/b&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;%c4Description%&lt;/div&gt;" id="f9u2d2Vjdnd8VSLoP7Rx-2">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#ffffff;align=center;arcSize=10;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];strokeColor=none;fillColor=#1168BD;" vertex="1" parent="kcNrDKVuIw6WG_678KC--1">
+            <mxGeometry x="621" y="820" width="160" height="110.00000000000001" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="API" c4Type="Software System" c4Description="Permite que os clientes acessem o sistema docker através da linha de comando" label="&lt;b&gt;%c4Name%&lt;/b&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;%c4Description%&lt;/div&gt;" id="f9u2d2Vjdnd8VSLoP7Rx-3">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;align=center;arcSize=10;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];fontColor=#FFFFFF;labelBorderColor=none;strokeColor=none;fillColor=#1168BD;" vertex="1" parent="kcNrDKVuIw6WG_678KC--1">
+            <mxGeometry x="110" y="473" width="160" height="110.00000000000001" as="geometry" />
+          </mxCell>
+        </object>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="CONTEXT diagram OLD" id="ByXM8ozVginANf3rxz_h">
     <mxGraphModel dx="1185" dy="638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="583" math="0" shadow="0">
       <root>
         <mxCell id="hwlWCakefM1u1q3HFg4p-0" />
