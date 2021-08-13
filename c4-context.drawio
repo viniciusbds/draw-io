@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-08-12T19:41:21.239Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4592.0 Safari/537.36 Edg/94.0.975.1" etag="gFtHhiNAr0CGSQyAqRag" version="14.9.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-08-13T12:40:56.799Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4592.0 Safari/537.36 Edg/94.0.975.1" etag="SNlQCugxwboTBloEvu1I" version="14.9.6" type="github" pages="3">
   <diagram id="USoWGheu4pevt5vaRW3p" name="context diagram">
-    <mxGraphModel dx="981" dy="528" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="583" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="583" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -47,7 +47,7 @@
             <mxPoint x="9" y="-23" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="O3t1NYWPz0p32roDbrL6-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeWidth=2;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;exitX=0.519;exitY=0.993;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="7Lbgfwj7MOso4MG-8HwS-1" target="7Lbgfwj7MOso4MG-8HwS-2">
+        <mxCell id="O3t1NYWPz0p32roDbrL6-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeWidth=2;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;exitX=0.519;exitY=0.993;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="7Lbgfwj7MOso4MG-8HwS-1" target="7Lbgfwj7MOso4MG-8HwS-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="551" y="340" as="sourcePoint" />
             <mxPoint x="275" y="340" as="targetPoint" />
@@ -57,36 +57,36 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="O3t1NYWPz0p32roDbrL6-6" value="&lt;div&gt;envia comandos de&amp;nbsp;&lt;/div&gt;&lt;div&gt;manipulação de containers e&amp;nbsp;&lt;/div&gt;&lt;div&gt;imagens para o sistema&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#666666;fontStyle=1" vertex="1" connectable="0" parent="O3t1NYWPz0p32roDbrL6-5">
+        <mxCell id="O3t1NYWPz0p32roDbrL6-6" value="&lt;div&gt;envia comandos de&amp;nbsp;&lt;/div&gt;&lt;div&gt;manipulação de containers e&amp;nbsp;&lt;/div&gt;&lt;div&gt;imagens para o sistema&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#666666;fontStyle=1" parent="O3t1NYWPz0p32roDbrL6-5" vertex="1" connectable="0">
           <mxGeometry x="-0.1286" y="-1" relative="1" as="geometry">
             <mxPoint x="-20" y="81" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="O3t1NYWPz0p32roDbrL6-7" value="&lt;b style=&quot;font-size: 11px;&quot;&gt;Observação: o termo container nesse diagrama se refere a tecnologia docker, não ao diagrama de container c4&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=bottom;whiteSpace=wrap;rounded=0;fontSize=11;horizontal=1;" vertex="1" parent="1">
+        <mxCell id="O3t1NYWPz0p32roDbrL6-7" value="&lt;b style=&quot;font-size: 11px;&quot;&gt;Observação: o termo container nesse diagrama se refere a tecnologia docker, não ao diagrama de container c4&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=bottom;whiteSpace=wrap;rounded=0;fontSize=11;horizontal=1;" parent="1" vertex="1">
           <mxGeometry x="9" y="920" width="651" height="30" as="geometry" />
         </mxCell>
         <object placeholders="1" c4Name="Cliente CLI Docker" c4Type="Person" c4Description="Cliente que precisa &#xa;criar, usar ou manipular &#xa;containers via CLI" label="&lt;b&gt;%c4Name%&lt;/b&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;%c4Description%&lt;/div&gt;" id="7Lbgfwj7MOso4MG-8HwS-1">
-          <mxCell style="html=1;dashed=0;whitespace=wrap;fillColor=#08427b;strokeColor=none;fontColor=#ffffff;shape=mxgraph.c4.person;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};" vertex="1" parent="1">
+          <mxCell style="html=1;dashed=0;whitespace=wrap;fillColor=#08427b;strokeColor=none;fontColor=#ffffff;shape=mxgraph.c4.person;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};" parent="1" vertex="1">
             <mxGeometry x="480" y="200" width="140" height="140" as="geometry" />
           </mxCell>
         </object>
         <object placeholders="1" c4Name="Client API Docker" c4Type="Person" c4Description="Cliente que precisa &#xa;criar, usar ou manipular &#xa;containers via API" label="&lt;b&gt;%c4Name%&lt;/b&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;%c4Description%&lt;/div&gt;" id="7Lbgfwj7MOso4MG-8HwS-2">
-          <mxCell style="html=1;dashed=0;whitespace=wrap;fillColor=#08427b;strokeColor=none;fontColor=#ffffff;shape=mxgraph.c4.person;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};" vertex="1" parent="1">
+          <mxCell style="html=1;dashed=0;whitespace=wrap;fillColor=#08427b;strokeColor=none;fontColor=#ffffff;shape=mxgraph.c4.person;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};" parent="1" vertex="1">
             <mxGeometry x="200" y="200" width="140" height="140" as="geometry" />
           </mxCell>
         </object>
         <object placeholders="1" c4Name="Linux Kernel" c4Type="Software System" c4Description="Prove recursos como cgroups e namespaces para a criação dos containers" label="&lt;b&gt;%c4Name%&lt;/b&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;%c4Description%&lt;/div&gt;" id="nH0ti_gWH6XKNsflGhwn-1">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#999999;fontColor=#ffffff;align=center;arcSize=10;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];strokeColor=none;" vertex="1" parent="1">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#999999;fontColor=#ffffff;align=center;arcSize=10;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];strokeColor=none;" parent="1" vertex="1">
             <mxGeometry x="334" y="770" width="160" height="110.00000000000001" as="geometry" />
           </mxCell>
         </object>
-        <mxCell id="nH0ti_gWH6XKNsflGhwn-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeWidth=2;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="SmEOS3_obx7CU0TLqExd-11">
+        <mxCell id="nH0ti_gWH6XKNsflGhwn-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeWidth=2;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="SmEOS3_obx7CU0TLqExd-11" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="463.5" y="710" as="sourcePoint" />
             <mxPoint x="414" y="770" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nH0ti_gWH6XKNsflGhwn-3" value="usa namespaces e cgroups do linux&lt;br&gt;para a criação dos containers" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#666666;fontStyle=1" vertex="1" connectable="0" parent="nH0ti_gWH6XKNsflGhwn-2">
+        <mxCell id="nH0ti_gWH6XKNsflGhwn-3" value="usa namespaces e cgroups do linux&lt;br&gt;para a criação dos containers" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#666666;fontStyle=1" parent="nH0ti_gWH6XKNsflGhwn-2" vertex="1" connectable="0">
           <mxGeometry x="-0.1286" y="-1" relative="1" as="geometry">
             <mxPoint x="1" y="12" as="offset" />
           </mxGeometry>
@@ -100,48 +100,48 @@
         <mxCell id="RsJsyCxZemTkWBGlEV4v-0" />
         <mxCell id="RsJsyCxZemTkWBGlEV4v-1" parent="RsJsyCxZemTkWBGlEV4v-0" />
         <object placeholders="1" c4Name="Docker System" c4Type="ExecutionEnvironment" c4Application="Software System" label="&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="RsJsyCxZemTkWBGlEV4v-2">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#ffffff;fontColor=#000000;align=left;arcSize=5;strokeColor=#000000;verticalAlign=bottom;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shadow=0;glass=0;dashed=1;sketch=0;fontSize=11;fontStyle=0" vertex="1" parent="RsJsyCxZemTkWBGlEV4v-1">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#ffffff;fontColor=#000000;align=left;arcSize=5;strokeColor=#000000;verticalAlign=bottom;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shadow=0;glass=0;dashed=1;sketch=0;fontSize=11;fontStyle=0" parent="RsJsyCxZemTkWBGlEV4v-1" vertex="1">
             <mxGeometry x="219" y="310" width="390" height="500" as="geometry" />
           </mxCell>
         </object>
         <object placeholders="1" c4Name="Registry" c4Type="Software System" c4Description="Armazena remotamente um conjunto de imagens, que podem ser privadas ou públicas" label="&lt;b&gt;%c4Name%&lt;/b&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;%c4Description%&lt;/div&gt;" id="RsJsyCxZemTkWBGlEV4v-3">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#999999;fontColor=#ffffff;align=center;arcSize=10;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];strokeColor=none;" vertex="1" parent="RsJsyCxZemTkWBGlEV4v-1">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#999999;fontColor=#ffffff;align=center;arcSize=10;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];strokeColor=none;" parent="RsJsyCxZemTkWBGlEV4v-1" vertex="1">
             <mxGeometry x="674" y="460" width="153" height="110" as="geometry" />
           </mxCell>
         </object>
         <object placeholders="1" c4Name="Kubernetes" c4Type="Software System" c4Description="Orquestrador de containers que monitora o ciclo de vida dos containers de uma aplicação " label="&lt;b&gt;%c4Name%&lt;/b&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;%c4Description%&lt;/div&gt;" id="RsJsyCxZemTkWBGlEV4v-4">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#999999;fontColor=#ffffff;align=center;arcSize=10;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];strokeColor=none;" vertex="1" parent="RsJsyCxZemTkWBGlEV4v-1">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#999999;fontColor=#ffffff;align=center;arcSize=10;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];strokeColor=none;" parent="RsJsyCxZemTkWBGlEV4v-1" vertex="1">
             <mxGeometry y="460" width="150" height="110" as="geometry" />
           </mxCell>
         </object>
-        <mxCell id="RsJsyCxZemTkWBGlEV4v-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeWidth=2;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="RsJsyCxZemTkWBGlEV4v-1" source="RsJsyCxZemTkWBGlEV4v-9" target="RsJsyCxZemTkWBGlEV4v-3">
+        <mxCell id="RsJsyCxZemTkWBGlEV4v-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeWidth=2;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="RsJsyCxZemTkWBGlEV4v-1" source="RsJsyCxZemTkWBGlEV4v-9" target="RsJsyCxZemTkWBGlEV4v-3" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="574" y="558" as="sourcePoint" />
             <mxPoint x="667.2800000000002" y="520.3900000000001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RsJsyCxZemTkWBGlEV4v-6" value="baixa, cria e atualiza &lt;br&gt;imagens do registro" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#666666;fontStyle=1" vertex="1" connectable="0" parent="RsJsyCxZemTkWBGlEV4v-5">
+        <mxCell id="RsJsyCxZemTkWBGlEV4v-6" value="baixa, cria e atualiza &lt;br&gt;imagens do registro" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#666666;fontStyle=1" parent="RsJsyCxZemTkWBGlEV4v-5" vertex="1" connectable="0">
           <mxGeometry x="-0.1286" y="-1" relative="1" as="geometry">
             <mxPoint x="22" y="14" as="offset" />
           </mxGeometry>
         </mxCell>
         <object placeholders="1" c4Name="Client API Docker" c4Type="Person" c4Description="Cliente que precisa &#xa;criar, usar ou manipular &#xa;containers via API" label="&lt;b&gt;%c4Name%&lt;/b&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;%c4Description%&lt;/div&gt;" id="RsJsyCxZemTkWBGlEV4v-7">
-          <mxCell style="html=1;dashed=0;whitespace=wrap;fillColor=#08427b;strokeColor=none;fontColor=#ffffff;shape=mxgraph.c4.person;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};" vertex="1" parent="RsJsyCxZemTkWBGlEV4v-1">
+          <mxCell style="html=1;dashed=0;whitespace=wrap;fillColor=#08427b;strokeColor=none;fontColor=#ffffff;shape=mxgraph.c4.person;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};" parent="RsJsyCxZemTkWBGlEV4v-1" vertex="1">
             <mxGeometry x="247" y="100" width="140" height="140" as="geometry" />
           </mxCell>
         </object>
         <object placeholders="1" c4Name="CLI" c4Type="Container" c4Technology="Golang" c4Description="Permite que os clientes acessem o sistema docker através da linha de comando" label="&lt;b&gt;%c4Name%&lt;/b&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;%c4Description%&lt;/div&gt;" id="RsJsyCxZemTkWBGlEV4v-8">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#438DD5;fontColor=#ffffff;align=center;arcSize=10;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];fontSize=11;strokeColor=none;" vertex="1" parent="RsJsyCxZemTkWBGlEV4v-1">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#438DD5;fontColor=#ffffff;align=center;arcSize=10;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];fontSize=11;strokeColor=none;" parent="RsJsyCxZemTkWBGlEV4v-1" vertex="1">
             <mxGeometry x="429" y="330" width="160" height="107" as="geometry" />
           </mxCell>
         </object>
         <object placeholders="1" c4Name="API application" c4Type="Container" c4Technology="Golang, RESTful" c4Description="Cria, deleta, atualiza, executa containers e baixa/cria/envia imagens para o repositório remoto" label="&lt;b&gt;%c4Name%&lt;/b&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;%c4Description%&lt;/div&gt;" id="RsJsyCxZemTkWBGlEV4v-9">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#438DD5;fontColor=#ffffff;align=center;arcSize=10;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];fontSize=11;strokeColor=none;" vertex="1" parent="RsJsyCxZemTkWBGlEV4v-1">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#438DD5;fontColor=#ffffff;align=center;arcSize=10;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];fontSize=11;strokeColor=none;" parent="RsJsyCxZemTkWBGlEV4v-1" vertex="1">
             <mxGeometry x="237" y="460" width="160" height="110.00000000000001" as="geometry" />
           </mxCell>
         </object>
         <object placeholders="1" c4Type="Relationship" c4Technology="REST/HTTP" c4Description="Faz chamadas &#xa;a API" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="RsJsyCxZemTkWBGlEV4v-10">
-          <mxCell style="edgeStyle=none;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;strokeColor=#707070;strokeWidth=2;fontColor=#707070;jumpStyle=none;dashed=1;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};fontSize=11;endArrow=classic;endFill=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="RsJsyCxZemTkWBGlEV4v-1" source="RsJsyCxZemTkWBGlEV4v-8" target="RsJsyCxZemTkWBGlEV4v-9">
+          <mxCell style="edgeStyle=none;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;strokeColor=#707070;strokeWidth=2;fontColor=#707070;jumpStyle=none;dashed=1;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};fontSize=11;endArrow=classic;endFill=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="RsJsyCxZemTkWBGlEV4v-1" source="RsJsyCxZemTkWBGlEV4v-8" target="RsJsyCxZemTkWBGlEV4v-9" edge="1">
             <mxGeometry x="-0.1238" y="-10" width="160" relative="1" as="geometry">
               <mxPoint x="49" y="560" as="sourcePoint" />
               <mxPoint x="209" y="560" as="targetPoint" />
@@ -150,7 +150,7 @@
           </mxCell>
         </object>
         <object placeholders="1" c4Type="Relationship" c4Technology="technology" c4Description="armazena e recupera &#xa;os dados dos containers e &#xa;imagens locais" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="RsJsyCxZemTkWBGlEV4v-11">
-          <mxCell style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;strokeColor=#707070;strokeWidth=2;fontColor=#707070;jumpStyle=none;dashed=1;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};fontSize=11;endArrow=classic;endFill=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="RsJsyCxZemTkWBGlEV4v-1" source="RsJsyCxZemTkWBGlEV4v-9" target="RsJsyCxZemTkWBGlEV4v-17">
+          <mxCell style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;strokeColor=#707070;strokeWidth=2;fontColor=#707070;jumpStyle=none;dashed=1;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};fontSize=11;endArrow=classic;endFill=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="RsJsyCxZemTkWBGlEV4v-1" source="RsJsyCxZemTkWBGlEV4v-9" target="RsJsyCxZemTkWBGlEV4v-17" edge="1">
             <mxGeometry x="0.5935" width="160" relative="1" as="geometry">
               <mxPoint x="699" y="580" as="sourcePoint" />
               <mxPoint x="299" y="570" as="targetPoint" />
@@ -163,7 +163,7 @@
           </mxCell>
         </object>
         <object placeholders="1" c4Type="Relationship" c4Technology="REST/HTTP" c4Description="Usa o Docker &#xa;para criar &#xa;seus &#xa;containers &#xa;via API" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="RsJsyCxZemTkWBGlEV4v-12">
-          <mxCell style="edgeStyle=none;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;strokeColor=#707070;strokeWidth=2;fontColor=#707070;jumpStyle=none;dashed=1;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};fontSize=11;endArrow=classic;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="RsJsyCxZemTkWBGlEV4v-1" target="RsJsyCxZemTkWBGlEV4v-9">
+          <mxCell style="edgeStyle=none;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;strokeColor=#707070;strokeWidth=2;fontColor=#707070;jumpStyle=none;dashed=1;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};fontSize=11;endArrow=classic;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="RsJsyCxZemTkWBGlEV4v-1" target="RsJsyCxZemTkWBGlEV4v-9" edge="1">
             <mxGeometry x="-0.0805" y="-45" width="160" relative="1" as="geometry">
               <mxPoint x="150" y="515" as="sourcePoint" />
               <mxPoint x="228.81452944413877" y="333.0000000000001" as="targetPoint" />
@@ -172,7 +172,7 @@
           </mxCell>
         </object>
         <object placeholders="1" c4Type="Relationship" c4Technology="REST" c4Description="Cria/inicializa/remove&#xa;containers e imagens" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="RsJsyCxZemTkWBGlEV4v-13">
-          <mxCell style="edgeStyle=none;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;strokeColor=#707070;strokeWidth=2;fontColor=#707070;jumpStyle=none;dashed=1;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};fontSize=11;endArrow=classic;endFill=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="RsJsyCxZemTkWBGlEV4v-1" source="RsJsyCxZemTkWBGlEV4v-7" target="RsJsyCxZemTkWBGlEV4v-9">
+          <mxCell style="edgeStyle=none;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;strokeColor=#707070;strokeWidth=2;fontColor=#707070;jumpStyle=none;dashed=1;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};fontSize=11;endArrow=classic;endFill=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="RsJsyCxZemTkWBGlEV4v-1" source="RsJsyCxZemTkWBGlEV4v-7" target="RsJsyCxZemTkWBGlEV4v-9" edge="1">
             <mxGeometry x="-0.6364" width="160" relative="1" as="geometry">
               <mxPoint x="297" y="240" as="sourcePoint" />
               <mxPoint x="297" y="333.0000000000001" as="targetPoint" />
@@ -181,7 +181,7 @@
           </mxCell>
         </object>
         <object placeholders="1" c4Type="Relationship" c4Technology="Cobra CLI golang framework" c4Description="Cria/inicializa/remove&#xa;containers e imagens" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="RsJsyCxZemTkWBGlEV4v-14">
-          <mxCell style="edgeStyle=none;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;strokeColor=#707070;strokeWidth=2;fontColor=#707070;jumpStyle=none;dashed=1;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};fontSize=11;endArrow=classic;endFill=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="RsJsyCxZemTkWBGlEV4v-1">
+          <mxCell style="edgeStyle=none;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;strokeColor=#707070;strokeWidth=2;fontColor=#707070;jumpStyle=none;dashed=1;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};fontSize=11;endArrow=classic;endFill=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="RsJsyCxZemTkWBGlEV4v-1" edge="1">
             <mxGeometry x="-0.1398" width="160" relative="1" as="geometry">
               <mxPoint x="508.5" y="240" as="sourcePoint" />
               <mxPoint x="508.5" y="333" as="targetPoint" />
@@ -189,33 +189,33 @@
             </mxGeometry>
           </mxCell>
         </object>
-        <mxCell id="RsJsyCxZemTkWBGlEV4v-15" value="" style="group" vertex="1" connectable="0" parent="RsJsyCxZemTkWBGlEV4v-1">
+        <mxCell id="RsJsyCxZemTkWBGlEV4v-15" value="" style="group" parent="RsJsyCxZemTkWBGlEV4v-1" vertex="1" connectable="0">
           <mxGeometry x="380" y="680" width="142" height="107" as="geometry" />
         </mxCell>
-        <mxCell id="RsJsyCxZemTkWBGlEV4v-16" value="" style="group" vertex="1" connectable="0" parent="RsJsyCxZemTkWBGlEV4v-15">
+        <mxCell id="RsJsyCxZemTkWBGlEV4v-16" value="" style="group" parent="RsJsyCxZemTkWBGlEV4v-15" vertex="1" connectable="0">
           <mxGeometry x="2" y="0.0016666666666651508" width="142" height="107.00000000000001" as="geometry" />
         </mxCell>
-        <mxCell id="RsJsyCxZemTkWBGlEV4v-17" value="&lt;div&gt;&lt;span&gt;Armazena as imagens e o filesystem dos containers&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rounded=0;shadow=0;glass=0;sketch=0;fontSize=11;align=center;verticalAlign=bottom;fillColor=#438DD5;strokeColor=#FFFFFF;fontColor=#FFFFFF;" vertex="1" parent="RsJsyCxZemTkWBGlEV4v-16">
+        <mxCell id="RsJsyCxZemTkWBGlEV4v-17" value="&lt;div&gt;&lt;span&gt;Armazena as imagens e o filesystem dos containers&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rounded=0;shadow=0;glass=0;sketch=0;fontSize=11;align=center;verticalAlign=bottom;fillColor=#438DD5;strokeColor=#FFFFFF;fontColor=#FFFFFF;" parent="RsJsyCxZemTkWBGlEV4v-16" vertex="1">
           <mxGeometry width="142" height="107.00000000000001" as="geometry" />
         </mxCell>
-        <mxCell id="RsJsyCxZemTkWBGlEV4v-18" value="&lt;b&gt;Docker storage directory&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;sketch=0;fontSize=11;fontColor=#FFFFFF;" vertex="1" parent="RsJsyCxZemTkWBGlEV4v-16">
+        <mxCell id="RsJsyCxZemTkWBGlEV4v-18" value="&lt;b&gt;Docker storage directory&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;sketch=0;fontSize=11;fontColor=#FFFFFF;" parent="RsJsyCxZemTkWBGlEV4v-16" vertex="1">
           <mxGeometry x="28.75" y="37.51" width="84.5" height="17.83" as="geometry" />
         </mxCell>
         <object placeholders="1" c4Name="Cliente CLI Docker" c4Type="Person" c4Description="Cliente que precisa &#xa;criar, usar ou manipular &#xa;containers via CLI" label="&lt;b&gt;%c4Name%&lt;/b&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;%c4Description%&lt;/div&gt;" id="RsJsyCxZemTkWBGlEV4v-19">
-          <mxCell style="html=1;dashed=0;whitespace=wrap;fillColor=#08427b;strokeColor=none;fontColor=#ffffff;shape=mxgraph.c4.person;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};" vertex="1" parent="RsJsyCxZemTkWBGlEV4v-1">
+          <mxCell style="html=1;dashed=0;whitespace=wrap;fillColor=#08427b;strokeColor=none;fontColor=#ffffff;shape=mxgraph.c4.person;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};" parent="RsJsyCxZemTkWBGlEV4v-1" vertex="1">
             <mxGeometry x="439" y="100" width="140" height="140" as="geometry" />
           </mxCell>
         </object>
-        <mxCell id="RsJsyCxZemTkWBGlEV4v-20" value="&lt;b style=&quot;font-size: 11px&quot;&gt;Diagrama de Container C4 do sistema Docker&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=bottom;whiteSpace=wrap;rounded=0;fontSize=11;horizontal=1;" vertex="1" parent="RsJsyCxZemTkWBGlEV4v-1">
+        <mxCell id="RsJsyCxZemTkWBGlEV4v-20" value="&lt;b style=&quot;font-size: 11px&quot;&gt;Diagrama de Container C4 do sistema Docker&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=bottom;whiteSpace=wrap;rounded=0;fontSize=11;horizontal=1;" parent="RsJsyCxZemTkWBGlEV4v-1" vertex="1">
           <mxGeometry y="1030" width="651" height="30" as="geometry" />
         </mxCell>
         <object placeholders="1" c4Name="Linux Kernel" c4Type="Software System" c4Description="Prove recursos como cgroups e namespaces para a criação dos containers" label="&lt;b&gt;%c4Name%&lt;/b&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;%c4Description%&lt;/div&gt;" id="noF1pEVWnEmZxRD-8mET-0">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#999999;fontColor=#ffffff;align=center;arcSize=10;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];strokeColor=none;" vertex="1" parent="RsJsyCxZemTkWBGlEV4v-1">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#999999;fontColor=#ffffff;align=center;arcSize=10;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];strokeColor=none;" parent="RsJsyCxZemTkWBGlEV4v-1" vertex="1">
             <mxGeometry x="350" y="890" width="160" height="110.00000000000001" as="geometry" />
           </mxCell>
         </object>
         <object placeholders="1" c4Type="Relationship" c4Technology="technology" c4Description="usa namespaces e cgroups &#xa;do linux para a criação &#xa;dos containers" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="noF1pEVWnEmZxRD-8mET-2">
-          <mxCell style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;strokeColor=#707070;strokeWidth=2;fontColor=#707070;jumpStyle=none;dashed=1;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};fontSize=11;endArrow=classic;endFill=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="RsJsyCxZemTkWBGlEV4v-1" source="RsJsyCxZemTkWBGlEV4v-9" target="noF1pEVWnEmZxRD-8mET-0">
+          <mxCell style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;strokeColor=#707070;strokeWidth=2;fontColor=#707070;jumpStyle=none;dashed=1;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};fontSize=11;endArrow=classic;endFill=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="RsJsyCxZemTkWBGlEV4v-1" source="RsJsyCxZemTkWBGlEV4v-9" target="noF1pEVWnEmZxRD-8mET-0" edge="1">
             <mxGeometry x="-0.5745" y="20" width="160" relative="1" as="geometry">
               <mxPoint x="327" y="580" as="sourcePoint" />
               <mxPoint x="442" y="690.0016666666666" as="targetPoint" />
@@ -236,38 +236,38 @@
         <mxCell id="PyyScsRXK_HJ9tqrsYU3-0" />
         <mxCell id="PyyScsRXK_HJ9tqrsYU3-1" parent="PyyScsRXK_HJ9tqrsYU3-0" />
         <object placeholders="1" c4Name="API Application" c4Type="ExecutionEnvironment" c4Application="Container" label="&lt;div style=&quot;text-align: left&quot;&gt;%c4Name%&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;[%c4Application%]&lt;/div&gt;" id="PyyScsRXK_HJ9tqrsYU3-2">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#ffffff;fontColor=#000000;align=left;arcSize=5;strokeColor=#000000;verticalAlign=bottom;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shadow=0;glass=0;dashed=1;sketch=0;fontSize=11;fontStyle=0" vertex="1" parent="PyyScsRXK_HJ9tqrsYU3-1">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#ffffff;fontColor=#000000;align=left;arcSize=5;strokeColor=#000000;verticalAlign=bottom;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shadow=0;glass=0;dashed=1;sketch=0;fontSize=11;fontStyle=0" parent="PyyScsRXK_HJ9tqrsYU3-1" vertex="1">
             <mxGeometry x="410" y="313" width="640" height="330" as="geometry" />
           </mxCell>
         </object>
         <object placeholders="1" c4Name="Registry" c4Type="Software System" c4Description="Armazena remotamente um conjunto de imagens, que podem ser privadas ou públicas" label="&lt;b&gt;%c4Name%&lt;/b&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;%c4Description%&lt;/div&gt;" id="PyyScsRXK_HJ9tqrsYU3-3">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#999999;fontColor=#ffffff;align=center;arcSize=10;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];strokeColor=none;" vertex="1" parent="PyyScsRXK_HJ9tqrsYU3-1">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#999999;fontColor=#ffffff;align=center;arcSize=10;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];strokeColor=none;" parent="PyyScsRXK_HJ9tqrsYU3-1" vertex="1">
             <mxGeometry x="1200" y="493" width="153" height="110" as="geometry" />
           </mxCell>
         </object>
         <object placeholders="1" c4Name="Kubernetes" c4Type="Software System" c4Description="Orquestrador de containers que monitora o ciclo de vida dos containers de uma aplicação " label="&lt;b&gt;%c4Name%&lt;/b&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;%c4Description%&lt;/div&gt;" id="PyyScsRXK_HJ9tqrsYU3-4">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#999999;fontColor=#ffffff;align=center;arcSize=10;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];strokeColor=none;" vertex="1" parent="PyyScsRXK_HJ9tqrsYU3-1">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#999999;fontColor=#ffffff;align=center;arcSize=10;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];strokeColor=none;" parent="PyyScsRXK_HJ9tqrsYU3-1" vertex="1">
             <mxGeometry x="110" y="343" width="150" height="110" as="geometry" />
           </mxCell>
         </object>
-        <mxCell id="PyyScsRXK_HJ9tqrsYU3-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeWidth=2;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="PyyScsRXK_HJ9tqrsYU3-1" source="JmPqT4rN2wxvBsyzgVRU-6" target="PyyScsRXK_HJ9tqrsYU3-3">
+        <mxCell id="PyyScsRXK_HJ9tqrsYU3-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeWidth=2;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="PyyScsRXK_HJ9tqrsYU3-1" source="JmPqT4rN2wxvBsyzgVRU-6" target="PyyScsRXK_HJ9tqrsYU3-3" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="870" y="643" as="sourcePoint" />
             <mxPoint x="997.2800000000002" y="843.3900000000001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PyyScsRXK_HJ9tqrsYU3-6" value="baixa, cria e atualiza &lt;br&gt;imagens do registro" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#666666;fontStyle=1" vertex="1" connectable="0" parent="PyyScsRXK_HJ9tqrsYU3-5">
+        <mxCell id="PyyScsRXK_HJ9tqrsYU3-6" value="baixa, cria e atualiza &lt;br&gt;imagens do registro&lt;br&gt;[HTTP]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#666666;fontStyle=1" parent="PyyScsRXK_HJ9tqrsYU3-5" vertex="1" connectable="0">
           <mxGeometry x="-0.1286" y="-1" relative="1" as="geometry">
-            <mxPoint x="22" y="14" as="offset" />
+            <mxPoint x="21" y="21" as="offset" />
           </mxGeometry>
         </mxCell>
         <object placeholders="1" c4Name="CLI" c4Type="Container" c4Technology="Golang" c4Description="Permite que os clientes acessem o sistema docker através da linha de comando" label="&lt;b&gt;%c4Name%&lt;/b&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;%c4Description%&lt;/div&gt;" id="PyyScsRXK_HJ9tqrsYU3-8">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#438DD5;fontColor=#ffffff;align=center;arcSize=10;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];fontSize=11;strokeColor=none;" vertex="1" parent="PyyScsRXK_HJ9tqrsYU3-1">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#438DD5;fontColor=#ffffff;align=center;arcSize=10;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];fontSize=11;strokeColor=none;" parent="PyyScsRXK_HJ9tqrsYU3-1" vertex="1">
             <mxGeometry x="650" y="120" width="160" height="107" as="geometry" />
           </mxCell>
         </object>
         <object placeholders="1" c4Type="Relationship" c4Technology="REST" c4Description="Faz chamadas &#xa;a API" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="PyyScsRXK_HJ9tqrsYU3-10">
-          <mxCell style="edgeStyle=none;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;strokeColor=#707070;strokeWidth=2;fontColor=#707070;jumpStyle=none;dashed=1;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};fontSize=11;endArrow=classic;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="PyyScsRXK_HJ9tqrsYU3-1" source="PyyScsRXK_HJ9tqrsYU3-8" target="JmPqT4rN2wxvBsyzgVRU-10">
+          <mxCell style="edgeStyle=none;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;strokeColor=#707070;strokeWidth=2;fontColor=#707070;jumpStyle=none;dashed=1;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};fontSize=11;endArrow=classic;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="PyyScsRXK_HJ9tqrsYU3-1" source="PyyScsRXK_HJ9tqrsYU3-8" target="JmPqT4rN2wxvBsyzgVRU-10" edge="1">
             <mxGeometry x="-0.431" width="160" relative="1" as="geometry">
               <mxPoint x="379" y="743" as="sourcePoint" />
               <mxPoint x="650" y="273" as="targetPoint" />
@@ -276,7 +276,7 @@
           </mxCell>
         </object>
         <object placeholders="1" c4Type="Relationship" c4Technology="REST" c4Description="Usa o Docker Daemon&#xa;para criar &#xa;seus &#xa;containers" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="PyyScsRXK_HJ9tqrsYU3-12">
-          <mxCell style="edgeStyle=none;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;strokeColor=#707070;strokeWidth=2;fontColor=#707070;jumpStyle=none;dashed=1;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};fontSize=11;endArrow=classic;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="PyyScsRXK_HJ9tqrsYU3-1" target="JmPqT4rN2wxvBsyzgVRU-10" source="PyyScsRXK_HJ9tqrsYU3-4">
+          <mxCell style="edgeStyle=none;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;strokeColor=#707070;strokeWidth=2;fontColor=#707070;jumpStyle=none;dashed=1;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};fontSize=11;endArrow=classic;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="PyyScsRXK_HJ9tqrsYU3-1" source="PyyScsRXK_HJ9tqrsYU3-4" target="JmPqT4rN2wxvBsyzgVRU-10" edge="1">
             <mxGeometry x="-0.5897" y="-22" width="160" relative="1" as="geometry">
               <mxPoint x="240" y="583" as="sourcePoint" />
               <mxPoint x="327" y="430" as="targetPoint" />
@@ -284,50 +284,50 @@
             </mxGeometry>
           </mxCell>
         </object>
-        <mxCell id="PyyScsRXK_HJ9tqrsYU3-15" value="" style="group" vertex="1" connectable="0" parent="PyyScsRXK_HJ9tqrsYU3-1">
+        <mxCell id="PyyScsRXK_HJ9tqrsYU3-15" value="" style="group" parent="PyyScsRXK_HJ9tqrsYU3-1" vertex="1" connectable="0">
           <mxGeometry x="710" y="735.25" width="230" height="119.5" as="geometry" />
         </mxCell>
-        <mxCell id="PyyScsRXK_HJ9tqrsYU3-16" value="" style="group" vertex="1" connectable="0" parent="PyyScsRXK_HJ9tqrsYU3-15">
+        <mxCell id="PyyScsRXK_HJ9tqrsYU3-16" value="" style="group" parent="PyyScsRXK_HJ9tqrsYU3-15" vertex="1" connectable="0">
           <mxGeometry x="3.23943661971831" y="0.0018613707165092105" width="230" height="119.50000000000003" as="geometry" />
         </mxCell>
-        <mxCell id="PyyScsRXK_HJ9tqrsYU3-17" value="&lt;div&gt;&lt;span&gt;Armazena as imagens e&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;filesystem dos&amp;nbsp;&lt;span&gt;containers&lt;/span&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rounded=0;shadow=0;glass=0;sketch=0;fontSize=11;align=center;verticalAlign=bottom;fillColor=#438DD5;strokeColor=#FFFFFF;fontColor=#FFFFFF;" vertex="1" parent="PyyScsRXK_HJ9tqrsYU3-16">
+        <mxCell id="PyyScsRXK_HJ9tqrsYU3-17" value="&lt;div&gt;&lt;span&gt;Diretório responsável por armazena as imagens baixadas do registro e o f&lt;/span&gt;&lt;span&gt;ilesystem dos&amp;nbsp;&lt;/span&gt;&lt;span&gt;containers&lt;/span&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rounded=0;shadow=0;glass=0;sketch=0;fontSize=11;align=center;verticalAlign=bottom;fillColor=#438DD5;strokeColor=#FFFFFF;fontColor=#FFFFFF;" parent="PyyScsRXK_HJ9tqrsYU3-16" vertex="1">
           <mxGeometry width="230" height="119.50000000000003" as="geometry" />
         </mxCell>
-        <mxCell id="PyyScsRXK_HJ9tqrsYU3-18" value="&lt;b&gt;Docker storage directory&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;sketch=0;fontSize=11;fontColor=#FFFFFF;" vertex="1" parent="PyyScsRXK_HJ9tqrsYU3-16">
+        <mxCell id="PyyScsRXK_HJ9tqrsYU3-18" value="&lt;b&gt;Docker storage directory&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;sketch=0;fontSize=11;fontColor=#FFFFFF;" parent="PyyScsRXK_HJ9tqrsYU3-16" vertex="1">
           <mxGeometry x="57.5" y="41.892009345794406" width="115" height="19.916666666666668" as="geometry" />
         </mxCell>
-        <mxCell id="PyyScsRXK_HJ9tqrsYU3-20" value="&lt;b style=&quot;font-size: 11px&quot;&gt;Diagrama de Componentes C4 do sistema Docker&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=bottom;whiteSpace=wrap;rounded=0;fontSize=11;horizontal=1;" vertex="1" parent="PyyScsRXK_HJ9tqrsYU3-1">
+        <mxCell id="PyyScsRXK_HJ9tqrsYU3-20" value="&lt;b style=&quot;font-size: 11px&quot;&gt;Diagrama de Componentes C4 do sistema Docker&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=bottom;whiteSpace=wrap;rounded=0;fontSize=11;horizontal=1;" parent="PyyScsRXK_HJ9tqrsYU3-1" vertex="1">
           <mxGeometry x="110" y="890" width="651" height="30" as="geometry" />
         </mxCell>
         <object placeholders="1" c4Name="Image Component" c4Type="Component" c4Technology="golang, REST/HTTP" c4Description="Gerencia as imagens, baixa do repositório caso não exista localmente e cria novas imagens" label="&lt;b&gt;%c4Name%&lt;/b&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;%c4Description%&lt;/div&gt;" id="JmPqT4rN2wxvBsyzgVRU-6">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#85BBF0;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#78A8D8;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shadow=0;glass=0;sketch=0;fontSize=11;" vertex="1" parent="PyyScsRXK_HJ9tqrsYU3-1">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#85BBF0;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#78A8D8;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shadow=0;glass=0;sketch=0;fontSize=11;" parent="PyyScsRXK_HJ9tqrsYU3-1" vertex="1">
             <mxGeometry x="844" y="493" width="160" height="110.00000000000001" as="geometry" />
           </mxCell>
         </object>
-        <mxCell id="lfHZvJJ9JlQ9Yv21UnIy-1" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;fontSize=11;fontColor=#FFFFFF;endArrow=classic;endFill=1;strokeColor=#666666;strokeWidth=2;" edge="1" parent="PyyScsRXK_HJ9tqrsYU3-1" source="JmPqT4rN2wxvBsyzgVRU-9" target="lfHZvJJ9JlQ9Yv21UnIy-0">
+        <mxCell id="lfHZvJJ9JlQ9Yv21UnIy-1" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;fontSize=11;fontColor=#FFFFFF;endArrow=classic;endFill=1;strokeColor=#666666;strokeWidth=2;" parent="PyyScsRXK_HJ9tqrsYU3-1" source="JmPqT4rN2wxvBsyzgVRU-9" target="lfHZvJJ9JlQ9Yv21UnIy-0" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lfHZvJJ9JlQ9Yv21UnIy-2" value="&lt;font color=&quot;#666666&quot;&gt;&lt;b&gt;acessa os recursos do kernel &lt;br&gt;e criar os containers linux&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontColor=#FFFFFF;" vertex="1" connectable="0" parent="lfHZvJJ9JlQ9Yv21UnIy-1">
+        <mxCell id="lfHZvJJ9JlQ9Yv21UnIy-2" value="&lt;font color=&quot;#666666&quot;&gt;&lt;b&gt;acessa os recursos do kernel &lt;br&gt;e criar os containers linux&lt;br&gt;[Linux syscalls]&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontColor=#FFFFFF;" parent="lfHZvJJ9JlQ9Yv21UnIy-1" vertex="1" connectable="0">
           <mxGeometry x="-0.184" y="1" relative="1" as="geometry">
             <mxPoint x="-1" y="21" as="offset" />
           </mxGeometry>
         </mxCell>
         <object placeholders="1" c4Name="Kernel Component" c4Type="Component" c4Technology="Linux, cgroups e namespaces" c4Description="Responsável por acessar os recursos do Kernel, como namespace e Cgroups para implementar os containers." label="&lt;b&gt;%c4Name%&lt;/b&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;%c4Description%&lt;/div&gt;" id="JmPqT4rN2wxvBsyzgVRU-9">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#85BBF0;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#78A8D8;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shadow=0;glass=0;sketch=0;fontSize=11;" vertex="1" parent="PyyScsRXK_HJ9tqrsYU3-1">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#85BBF0;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#78A8D8;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shadow=0;glass=0;sketch=0;fontSize=11;" parent="PyyScsRXK_HJ9tqrsYU3-1" vertex="1">
             <mxGeometry x="450" y="493" width="160" height="110.00000000000001" as="geometry" />
           </mxCell>
         </object>
         <object placeholders="1" c4Name="Docker Daemon Component" c4Type="Component" c4Technology="technology" c4Description="Gerencia os containers e as imagens" label="&lt;b&gt;%c4Name%&lt;/b&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;%c4Description%&lt;/div&gt;" id="JmPqT4rN2wxvBsyzgVRU-10">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#85BBF0;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#78A8D8;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shadow=0;glass=0;sketch=0;fontSize=11;" vertex="1" parent="PyyScsRXK_HJ9tqrsYU3-1">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#85BBF0;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#78A8D8;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shadow=0;glass=0;sketch=0;fontSize=11;" parent="PyyScsRXK_HJ9tqrsYU3-1" vertex="1">
             <mxGeometry x="650" y="343" width="160" height="110.00000000000001" as="geometry" />
           </mxCell>
         </object>
         <object placeholders="1" c4Name="Container Component" c4Type="Component" c4Technology="golang" c4Description="Gerencia os containers. Cria, executa, desliga e remove containers." label="&lt;b&gt;%c4Name%&lt;/b&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;%c4Description%&lt;/div&gt;" id="JmPqT4rN2wxvBsyzgVRU-13">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#85BBF0;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#78A8D8;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shadow=0;glass=0;sketch=0;fontSize=11;" vertex="1" parent="PyyScsRXK_HJ9tqrsYU3-1">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#85BBF0;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#78A8D8;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shadow=0;glass=0;sketch=0;fontSize=11;" parent="PyyScsRXK_HJ9tqrsYU3-1" vertex="1">
             <mxGeometry x="650" y="493" width="160" height="110.00000000000001" as="geometry" />
           </mxCell>
         </object>
-        <mxCell id="VEw5hTCYL2MaXKSZwC-o-0" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeWidth=2;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;exitX=0.504;exitY=1.036;exitDx=0;exitDy=0;exitPerimeter=0;edgeStyle=orthogonalEdgeStyle;entryX=0.598;entryY=-0.002;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="PyyScsRXK_HJ9tqrsYU3-1">
+        <mxCell id="VEw5hTCYL2MaXKSZwC-o-0" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeWidth=2;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;exitX=0.504;exitY=1.036;exitDx=0;exitDy=0;exitPerimeter=0;edgeStyle=orthogonalEdgeStyle;entryX=0.598;entryY=-0.002;entryDx=0;entryDy=0;entryPerimeter=0;" parent="PyyScsRXK_HJ9tqrsYU3-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="923.86" y="607.2" as="sourcePoint" />
             <mxPoint x="849.999436619718" y="735.2528613707165" as="targetPoint" />
@@ -337,17 +337,17 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="VEw5hTCYL2MaXKSZwC-o-1" value="armazena e recupera &lt;br&gt;imagens" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#666666;fontStyle=1" vertex="1" connectable="0" parent="VEw5hTCYL2MaXKSZwC-o-0">
+        <mxCell id="VEw5hTCYL2MaXKSZwC-o-1" value="armazena e recupera &lt;br&gt;imagens&lt;br&gt;[Linux directories]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#666666;fontStyle=1" parent="VEw5hTCYL2MaXKSZwC-o-0" vertex="1" connectable="0">
           <mxGeometry x="-0.1286" y="-1" relative="1" as="geometry">
             <mxPoint x="24" y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <object placeholders="1" c4Name="Linux Kernel" c4Type="Software System" c4Description="Prove recursos como cgroups e namespaces para a criação dos containers" label="&lt;b&gt;%c4Name%&lt;/b&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;%c4Description%&lt;/div&gt;" id="lfHZvJJ9JlQ9Yv21UnIy-0">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#999999;fontColor=#ffffff;align=center;arcSize=10;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];strokeColor=none;" vertex="1" parent="PyyScsRXK_HJ9tqrsYU3-1">
+        <object placeholders="1" c4Name="Linux Kernel" c4Type="Software System" c4Description="Prover recursos como cgroups e namespaces para a criação dos containers" label="&lt;b&gt;%c4Name%&lt;/b&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;%c4Description%&lt;/div&gt;" id="lfHZvJJ9JlQ9Yv21UnIy-0">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#999999;fontColor=#ffffff;align=center;arcSize=10;metaEdit=1;metaData={&quot;c4Type&quot;:{&quot;editable&quot;:false}};points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];strokeColor=none;" parent="PyyScsRXK_HJ9tqrsYU3-1" vertex="1">
             <mxGeometry x="450" y="740" width="160" height="110.00000000000001" as="geometry" />
           </mxCell>
         </object>
-        <mxCell id="lfHZvJJ9JlQ9Yv21UnIy-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeWidth=2;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;edgeStyle=orthogonalEdgeStyle;entryX=0.426;entryY=0.012;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="PyyScsRXK_HJ9tqrsYU3-1" source="JmPqT4rN2wxvBsyzgVRU-13" target="PyyScsRXK_HJ9tqrsYU3-17">
+        <mxCell id="lfHZvJJ9JlQ9Yv21UnIy-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeWidth=2;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;edgeStyle=orthogonalEdgeStyle;entryX=0.426;entryY=0.012;entryDx=0;entryDy=0;entryPerimeter=0;" parent="PyyScsRXK_HJ9tqrsYU3-1" source="JmPqT4rN2wxvBsyzgVRU-13" target="PyyScsRXK_HJ9tqrsYU3-17" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="740" y="690" as="sourcePoint" />
             <mxPoint x="828" y="710" as="targetPoint" />
@@ -358,40 +358,40 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="lfHZvJJ9JlQ9Yv21UnIy-4" value="armazena e recupera &lt;br&gt;os dados dos containers &lt;br&gt;(ex.: filesystem)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#666666;fontStyle=1" vertex="1" connectable="0" parent="lfHZvJJ9JlQ9Yv21UnIy-3">
+        <mxCell id="lfHZvJJ9JlQ9Yv21UnIy-4" value="armazena e recupera &lt;br&gt;os dados dos containers &lt;br&gt;(ex.: filesystem)&lt;br&gt;[Linux directories]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#666666;fontStyle=1" parent="lfHZvJJ9JlQ9Yv21UnIy-3" vertex="1" connectable="0">
           <mxGeometry x="-0.1286" y="-1" relative="1" as="geometry">
             <mxPoint x="-27" y="9" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vKwqQrcVeKp7P8ehAy2l-0" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeWidth=2;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="PyyScsRXK_HJ9tqrsYU3-1" source="JmPqT4rN2wxvBsyzgVRU-10" target="JmPqT4rN2wxvBsyzgVRU-9">
+        <mxCell id="vKwqQrcVeKp7P8ehAy2l-0" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeWidth=2;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="PyyScsRXK_HJ9tqrsYU3-1" source="JmPqT4rN2wxvBsyzgVRU-10" target="JmPqT4rN2wxvBsyzgVRU-9" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="740" y="613" as="sourcePoint" />
             <mxPoint x="789.6494504225354" y="736.8963208722741" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vKwqQrcVeKp7P8ehAy2l-1" value="usa" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#666666;fontStyle=1" vertex="1" connectable="0" parent="vKwqQrcVeKp7P8ehAy2l-0">
+        <mxCell id="vKwqQrcVeKp7P8ehAy2l-1" value="usa" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#666666;fontStyle=1" parent="vKwqQrcVeKp7P8ehAy2l-0" vertex="1" connectable="0">
           <mxGeometry x="-0.1286" y="-1" relative="1" as="geometry">
             <mxPoint x="-32" y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vKwqQrcVeKp7P8ehAy2l-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeWidth=2;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.497;exitY=0.994;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="PyyScsRXK_HJ9tqrsYU3-1" source="JmPqT4rN2wxvBsyzgVRU-10" target="JmPqT4rN2wxvBsyzgVRU-13">
+        <mxCell id="vKwqQrcVeKp7P8ehAy2l-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeWidth=2;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.497;exitY=0.994;exitDx=0;exitDy=0;exitPerimeter=0;" parent="PyyScsRXK_HJ9tqrsYU3-1" source="JmPqT4rN2wxvBsyzgVRU-10" target="JmPqT4rN2wxvBsyzgVRU-13" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="730" y="470" as="sourcePoint" />
             <mxPoint x="540" y="503" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vKwqQrcVeKp7P8ehAy2l-3" value="usa" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#666666;fontStyle=1" vertex="1" connectable="0" parent="vKwqQrcVeKp7P8ehAy2l-2">
+        <mxCell id="vKwqQrcVeKp7P8ehAy2l-3" value="usa" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#666666;fontStyle=1" parent="vKwqQrcVeKp7P8ehAy2l-2" vertex="1" connectable="0">
           <mxGeometry x="-0.1286" y="-1" relative="1" as="geometry">
             <mxPoint x="-22" y="9" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vKwqQrcVeKp7P8ehAy2l-4" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeWidth=2;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="PyyScsRXK_HJ9tqrsYU3-1" source="JmPqT4rN2wxvBsyzgVRU-10" target="JmPqT4rN2wxvBsyzgVRU-6">
+        <mxCell id="vKwqQrcVeKp7P8ehAy2l-4" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeWidth=2;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="PyyScsRXK_HJ9tqrsYU3-1" source="JmPqT4rN2wxvBsyzgVRU-10" target="JmPqT4rN2wxvBsyzgVRU-6" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="739.52" y="462.34000000000003" as="sourcePoint" />
             <mxPoint x="740" y="503" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vKwqQrcVeKp7P8ehAy2l-5" value="usa" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#666666;fontStyle=1" vertex="1" connectable="0" parent="vKwqQrcVeKp7P8ehAy2l-4">
+        <mxCell id="vKwqQrcVeKp7P8ehAy2l-5" value="usa" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#666666;fontStyle=1" parent="vKwqQrcVeKp7P8ehAy2l-4" vertex="1" connectable="0">
           <mxGeometry x="-0.1286" y="-1" relative="1" as="geometry">
             <mxPoint x="6" y="-1" as="offset" />
           </mxGeometry>
