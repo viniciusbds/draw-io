@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-15T23:19:00.172Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4592.0 Safari/537.36 Edg/94.0.975.1" etag="9lZN-Bh5vv0uaB3UkPV0" version="14.9.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-08-21T00:20:07.229Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4592.0 Safari/537.36 Edg/94.0.975.1" etag="YLdkOHrsz75fG51nAg1J" version="14.9.6" type="github" pages="4">
   <diagram id="USoWGheu4pevt5vaRW3p" name="context diagram">
     <mxGraphModel dx="1422" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="583" math="0" shadow="0">
       <root>
@@ -95,7 +95,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="container diagram" id="kWkKF-GSQZezkDIOExKI">
-    <mxGraphModel dx="677" dy="364" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="583" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="583" math="0" shadow="0">
       <root>
         <mxCell id="RsJsyCxZemTkWBGlEV4v-0" />
         <mxCell id="RsJsyCxZemTkWBGlEV4v-1" parent="RsJsyCxZemTkWBGlEV4v-0" />
@@ -231,7 +231,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="component diagram" id="brZyWGtAitPw5-Q9sodP">
-    <mxGraphModel dx="1673" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="583" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="583" background="none" math="0" shadow="0">
       <root>
         <mxCell id="PyyScsRXK_HJ9tqrsYU3-0" />
         <mxCell id="PyyScsRXK_HJ9tqrsYU3-1" parent="PyyScsRXK_HJ9tqrsYU3-0" />
@@ -395,6 +395,51 @@
           <mxGeometry x="-0.1286" y="-1" relative="1" as="geometry">
             <mxPoint x="6" y="-1" as="offset" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ZcRIQWtRO-1Ay6HM1ZH3" name="Page-4">
+    <mxGraphModel dx="1185" dy="638" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="583" math="0" shadow="0">
+      <root>
+        <mxCell id="YnAzGmqMQl9L073LsuX7-0" />
+        <mxCell id="YnAzGmqMQl9L073LsuX7-1" parent="YnAzGmqMQl9L073LsuX7-0" />
+        <mxCell id="YnAzGmqMQl9L073LsuX7-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="YnAzGmqMQl9L073LsuX7-1" source="YnAzGmqMQl9L073LsuX7-2" target="YnAzGmqMQl9L073LsuX7-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YnAzGmqMQl9L073LsuX7-2" value="Usuario sem agendamentos" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="YnAzGmqMQl9L073LsuX7-1">
+          <mxGeometry x="20" y="260" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="YnAzGmqMQl9L073LsuX7-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="YnAzGmqMQl9L073LsuX7-1" source="YnAzGmqMQl9L073LsuX7-3" target="YnAzGmqMQl9L073LsuX7-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YnAzGmqMQl9L073LsuX7-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="YnAzGmqMQl9L073LsuX7-1" source="YnAzGmqMQl9L073LsuX7-3" target="YnAzGmqMQl9L073LsuX7-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="255" y="185" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YnAzGmqMQl9L073LsuX7-3" value="Usuario com agendamentos pendentes" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="YnAzGmqMQl9L073LsuX7-1">
+          <mxGeometry x="200" y="260" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="YnAzGmqMQl9L073LsuX7-4" value="Usuario com resultados recebidos" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="YnAzGmqMQl9L073LsuX7-1">
+          <mxGeometry x="680" y="260" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="YnAzGmqMQl9L073LsuX7-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="YnAzGmqMQl9L073LsuX7-1" source="YnAzGmqMQl9L073LsuX7-5" target="YnAzGmqMQl9L073LsuX7-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YnAzGmqMQl9L073LsuX7-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="YnAzGmqMQl9L073LsuX7-1" source="YnAzGmqMQl9L073LsuX7-5" target="YnAzGmqMQl9L073LsuX7-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YnAzGmqMQl9L073LsuX7-5" value="Usuario com exames em dia" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="YnAzGmqMQl9L073LsuX7-1">
+          <mxGeometry x="420" y="260" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="YnAzGmqMQl9L073LsuX7-10" value="Usuario com pendencia a receber os resultados" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="YnAzGmqMQl9L073LsuX7-1">
+          <mxGeometry x="680" y="130" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="YnAzGmqMQl9L073LsuX7-11" value="Usuario com exames pendentes" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="YnAzGmqMQl9L073LsuX7-1">
+          <mxGeometry x="420" y="130" width="110" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
